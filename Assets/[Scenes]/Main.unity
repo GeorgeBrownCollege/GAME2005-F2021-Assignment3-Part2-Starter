@@ -1755,6 +1755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1934649748}
   - component: {fileID: 1934649747}
+  - component: {fileID: 1934649749}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1792,6 +1793,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1934649749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934649746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605fb755b480b104e94217a74a32c60f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefabs:
+  - {fileID: 8158669805349525052, guid: 3b62badc93a1b4c448716cc7ed1b74cd, type: 3}
+  - {fileID: 1743624291416417369, guid: 0f4d581ccb8614249ae37899c3086097, type: 3}
+  - {fileID: 2228660333460914147, guid: b8959fe88403e6443a3dc4ac2f78dab8, type: 3}
+  - {fileID: 348907923235965730, guid: 774261bfa4db7eb40894eb218a0cd1c0, type: 3}
+  - {fileID: 3503744225965021090, guid: f53031c540669464aabf5f670b27c534, type: 3}
+  - {fileID: 5054523491087336503, guid: eb429275f79839f44a86c9ee03a80f5a, type: 3}
+  frameDelay: 200
+  Offset: 3
 --- !u!1 &1970386050
 GameObject:
   m_ObjectHideFlags: 0

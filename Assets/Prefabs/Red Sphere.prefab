@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3904244143303740863}
   - component: {fileID: 1203475966935354167}
   - component: {fileID: 4846407828993254108}
+  - component: {fileID: -3785437633844464610}
   m_Layer: 0
   m_Name: Red Sphere
   m_TagString: Untagged
@@ -82,3 +83,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-3785437633844464610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3503744225965021090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2764166ca76da479f7eebff8604c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  direction: {x: 0, y: 0, z: 0}

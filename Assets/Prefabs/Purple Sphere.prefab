@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 173094448537850175}
   - component: {fileID: 2664941458201696183}
   - component: {fileID: 8577592682298523228}
+  - component: {fileID: 7115289737971527061}
   m_Layer: 0
   m_Name: Purple Sphere
   m_TagString: Untagged
@@ -82,3 +83,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7115289737971527061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348907923235965730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2764166ca76da479f7eebff8604c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  direction: {x: 0, y: 0, z: 0}
