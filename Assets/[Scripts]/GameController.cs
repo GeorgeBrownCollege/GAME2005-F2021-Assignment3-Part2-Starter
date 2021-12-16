@@ -9,7 +9,6 @@ public class GameController : MonoBehaviour
     public float frameDelay;
     public float Offset;
 
-    // Update is called once per frame
     void Update()
     {
         if ((Input.GetAxisRaw("Fire1") > 0) && (Time.frameCount % frameDelay == 0))
@@ -17,6 +16,7 @@ public class GameController : MonoBehaviour
             var randomSphereIndex = Random.Range(0, spherePrefabs.Count);
             var bullet = Instantiate(spherePrefabs[randomSphereIndex], Camera.main.transform.position + Camera.main.transform.forward * Offset, Quaternion.identity);
             bullet.GetComponent<SphereBehaviour>().direction = Camera.main.transform.forward;
+            bullet.GetComponent<SphereBehaviour>().isMoving = true;
         }
     }
 }
